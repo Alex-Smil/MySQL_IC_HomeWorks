@@ -142,7 +142,3 @@ SELECT * FROM test_users;
 CALL insert_into_users();
 
 SELECT * FROM test_users LIMIT 3;
-
-
-
-mysqldump -uroot -p123456 -P3360 shop_online > D:\GEEK_BRAINS_D\MySQL\MySQL_INTER\MySQL_IC_HomeWorks\HW_les_09_Оптимизация_запросов\shop_online.sql
